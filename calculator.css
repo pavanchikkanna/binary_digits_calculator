@@ -1,0 +1,37 @@
+
+        body{
+            background-color:#f8f8f8;
+            color: #1b0f0f;
+            
+        }
+        table{
+            border: solid black 2px;
+            position: absolute;
+            top:30%;
+            left:30%;
+            width:20rem;
+            border-radius:10px;
+        }
+        tr{
+            width: 100%;
+        }
+        #box{
+            width:98.5%;
+            height:50px;
+            border: solid 2px black;
+            border-radius:10px;
+            margin:10px 0px 8px 0px;
+            font-size: larger;
+        }
+        [type="button"]
+        {
+            border:solid black 2px;
+            width: 60px;
+            height: 60px;
+            margin: auto;
+            margin: 6px;
+            border-radius: 20px;
+            font-size: large;
+            cursor: pointer;
+        }
+    

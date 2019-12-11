@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Binary calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+        <table>
+            <tr>
+              <td> <input type="text"  id="box" readonly></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value=" 0 " onclick="calculator('0')">
+                    <input type="button" value=' 1 ' onclick="calculator('1')">
+                    <input type="button" value=" c " onclick="calculator('c')">
+                    <input type="button" value=" = " onclick="calculator('=')">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value=" + " onclick="calculator('+')">
+                    <input type="button" value=" - " onclick="calculator('-')">
+                    <input type="button" value=" X " onclick="calculator('*')">
+                    <input type="button" value=" / " onclick="calculator('/')">
+                </td>
+            </tr>
+        </table>
+        <script src="./calculator.js"></script>
+    
+</body>
+</html>
+
+
+
+
